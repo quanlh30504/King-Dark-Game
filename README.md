@@ -1,4 +1,5 @@
-# KINGS DARKNESS AND PIGS
+# <font color="red">KING DARKNESS</font> AND <font color="gree">PIGS</font>
+
 
 ## Giới thiệu
 - Chào mọi người mình là **Nguyễn Văn Quân (22026552)** sinh viên K67 trường **Đại học Công Nghệ**, đây là dự án đầu tiên của mình nên vẫn còn nhiều thiếu sót mong mọi người góp ý và ủng hộ để các bản update sau được hoàn chỉnh hơn.
