@@ -1,4 +1,4 @@
-# <font color="red">KING DARKNESS</font> AND <font color="gree">PIGS</font>
+# KING DARKNESS AND PIGS
 
 
 ## Giới thiệu
