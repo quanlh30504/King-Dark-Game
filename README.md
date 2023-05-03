@@ -3,7 +3,7 @@
 ## Giới thiệu
 - Chào mọi người mình là **Nguyễn Văn Quân (22026552)** sinh viên K67 trường **Đại học Công Nghệ**, đây là dự án đầu tiên của mình nên vẫn còn nhiều thiếu sót mong mọi người góp ý và ủng hộ để các bản update sau được hoàn chỉnh hơn.
 
-## Cốt chuyện
+## Cốt truyện
 - King Darkness and Pigs là 1 tựa game lấy ý tưởng từ trò chơi ***Celeste***, một trò chơi có thể loại platformer (trò chơi đánh nhau và di chuyển trên nền tảng) được phát triển và xuất bản bởi Maddy Makes Games vào năm 2018.
 
 - Cốt chuyện của King Darkness and Pigs xoay quanh nhanh vật chính là chúa tể bóng tối **Maloch** sau 1 lần đi chơi với công chúa **Peony** đã không may để bọn lợn xanh chiếm mất lâu đài, game là 1 hành trình của vua maloch đấu tranh đánh bại kẻ thù để dành lại ngôi vị của mình
@@ -13,9 +13,8 @@
 
 
 ## Hướng dẫn cài đặt
-Các bạn có thể cài đặt game theo 2 cách:
-- **Cách 1**: các bạn có thể tải source của mình và chạy trên trình biên dịch codeblock ( chú ý cài thư viện SDL2 cho codeblock)
-- **Cách 2**: các bạn có thể tải trực tiếp file exe theo hướng dẫn của mình 
+Các bạn có thể cài đặt game theo video hướng dẫn của mình:
+>Các bạn có thể tải source của mình và chạy trên trình biên dịch codeblock ( chú ý cài thư viện SDL2 cho codeblock)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G-EGDH50hGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
 link tải game
 
