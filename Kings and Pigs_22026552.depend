@@ -1,0 +1,401 @@
+# depslib dependency file v1.0
+1683001366 source:d:\kings and pigs_22026552\game.cpp
+	"Game.h"
+	"SDL_ttf.h"
+	<iostream>
+
+1682350288 d:\kings and pigs_22026552\game.h
+	"Map.h"
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"SDL.h"
+	"SDL_ttf.h"
+
+1682349720 d:\kings and pigs_22026552\gameobjects\map.h
+	"Variables.h"
+	"Ground.h"
+	"Coin.h"
+	"Player.h"
+	"Spikes.h"
+	"ExitDoor.h"
+	"Door.h"
+	"Buttom.h"
+	"Stone.h"
+	"Box.h"
+	"Enemies.h"
+	"Mushroom.h"
+	"LeverTurn.h"
+	<string>
+	<vector>
+
+1682350061 d:\kings and pigs_22026552\gamemanager\variables.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<utility>
+	"Texture.h"
+
+1682348680 d:\kings and pigs_22026552\gamemanager\texture.h
+	<SDL.h>
+	<string>
+
+1682349545 d:\kings and pigs_22026552\gameobjects\ground.h
+	"Texture.h"
+	"Collider.h"
+	<string>
+
+1682349281 d:\kings and pigs_22026552\gameobjects\collider.h
+	"Variables.h"
+	"Texture.h"
+
+1682349214 d:\kings and pigs_22026552\gameobjects\coin.h
+	"Animation.h"
+	"Collider.h"
+
+1682348997 d:\kings and pigs_22026552\gameobjects\animation.h
+	"Variables.h"
+	<SDL.h>
+
+1682349843 d:\kings and pigs_22026552\gameobjects\player.h
+	"Animation.h"
+	"Collider.h"
+	<string>
+	<list>
+	<iostream>
+
+1682349913 d:\kings and pigs_22026552\gameobjects\spikes.h
+	"Animation.h"
+	"Collider.h"
+	"Player.h"
+
+1682349476 d:\kings and pigs_22026552\gameobjects\exitdoor.h
+	"Texture.h"
+	"Collider.h"
+
+1682349332 d:\kings and pigs_22026552\gameobjects\door.h
+	"Animation.h"
+	"Collider.h"
+
+1682349175 d:\kings and pigs_22026552\gameobjects\buttom.h
+	"Animation.h"
+	"Collider.h"
+
+1682349964 d:\kings and pigs_22026552\gameobjects\stone.h
+	"Texture.h"
+	"Collider.h"
+
+1682349110 d:\kings and pigs_22026552\gameobjects\box.h
+	"Animation.h"
+	"Collider.h"
+
+1682997686 d:\kings and pigs_22026552\gameobjects\enemies.h
+	"Texture.h"
+	"Animation.h"
+	"Collider.h"
+
+1682349795 d:\kings and pigs_22026552\gameobjects\mushroom.h
+	"Animation.h"
+	"Collider.h"
+
+1682349638 d:\kings and pigs_22026552\gameobjects\leverturn.h
+	"Texture.h"
+	"Collider.h"
+	<vector>
+
+1682444129 source:d:\kings and pigs_22026552\gamemanager\texture.cpp
+	<SDL_image.h>
+	<iostream>
+	"Texture.h"
+	"Variables.h"
+
+1682443982 source:d:\kings and pigs_22026552\gamemanager\variables.cpp
+	"Variables.h"
+
+1682478436 source:d:\kings and pigs_22026552\gameobjects\animation.cpp
+	<iostream>
+	"Animation.h"
+
+1682349127 source:d:\kings and pigs_22026552\gameobjects\box.cpp
+	"Box.h"
+
+1682349186 source:d:\kings and pigs_22026552\gameobjects\buttom.cpp
+	"Buttom.h"
+	"iostream"
+
+1682349230 source:d:\kings and pigs_22026552\gameobjects\coin.cpp
+	"Coin.h"
+	<iostream>
+
+1682349366 source:d:\kings and pigs_22026552\gameobjects\door.cpp
+	"Door.h"
+	<iostream>
+
+1682497401 source:d:\kings and pigs_22026552\gameobjects\enemies.cpp
+	"Enemies.h"
+
+1682349494 source:d:\kings and pigs_22026552\gameobjects\exitdoor.cpp
+	"ExitDoor.h"
+
+1682349561 source:d:\kings and pigs_22026552\gameobjects\ground.cpp
+	"Ground.h"
+
+1682349652 source:d:\kings and pigs_22026552\gameobjects\leverturn.cpp
+	"LeverTurn.h"
+
+1683085362 source:d:\kings and pigs_22026552\gameobjects\map.cpp
+	"Map.h"
+	<fstream>
+	<string>
+	<iostream>
+	<math.h>
+
+1682350113 source:d:\kings and pigs_22026552\gameobjects\collider.cpp
+	"Collider.h"
+	"math.h"
+	<iostream>
+
+1682443896 source:d:\kings and pigs_22026552\gameobjects\mushroom.cpp
+	"Mushroom.h"
+
+1682997360 source:d:\kings and pigs_22026552\gameobjects\player.cpp
+	"Player.h"
+	<math.h>
+
+1682349926 source:d:\kings and pigs_22026552\gameobjects\spikes.cpp
+	"Spikes.h"
+	<iostream>
+
+1682349976 source:d:\kings and pigs_22026552\gameobjects\stone.cpp
+	"Stone.h"
+
+1682349004 source:d:\kings and pigs_22026552\gamestatemanager\instruct.cpp
+	"Variables.h"
+	"Instruct.h"
+
+1682411192 d:\kings and pigs_22026552\gamestatemanager\instruct.h
+	"Texture.h"
+
+1682411143 source:d:\kings and pigs_22026552\gamestatemanager\mainscreen.cpp
+	"Variables.h"
+	"MainScreen.h"
+
+1682350122 d:\kings and pigs_22026552\gamestatemanager\mainscreen.h
+	"Texture.h"
+
+1683085130 source:d:\kings and pigs_22026552\main.cpp
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"SDL.h"
+	"SDL_ttf.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	"Variables.h"
+	"Texture.h"
+	"Map.h"
+	"MainScreen.h"
+	"Instruct.h"
+	"Game.h"
+
+1683001366 source:d:\king darkness and pigs_22026552\game.cpp
+	"Game.h"
+	"SDL_ttf.h"
+	<iostream>
+
+1682350288 d:\king darkness and pigs_22026552\game.h
+	"Map.h"
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"SDL.h"
+	"SDL_ttf.h"
+
+1682349720 d:\king darkness and pigs_22026552\gameobjects\map.h
+	"Variables.h"
+	"Ground.h"
+	"Coin.h"
+	"Player.h"
+	"Spikes.h"
+	"ExitDoor.h"
+	"Door.h"
+	"Buttom.h"
+	"Stone.h"
+	"Box.h"
+	"Enemies.h"
+	"Mushroom.h"
+	"LeverTurn.h"
+	<string>
+	<vector>
+
+1682350061 d:\king darkness and pigs_22026552\gamemanager\variables.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<utility>
+	"Texture.h"
+
+1682348680 d:\king darkness and pigs_22026552\gamemanager\texture.h
+	<SDL.h>
+	<string>
+
+1682349545 d:\king darkness and pigs_22026552\gameobjects\ground.h
+	"Texture.h"
+	"Collider.h"
+	<string>
+
+1682349281 d:\king darkness and pigs_22026552\gameobjects\collider.h
+	"Variables.h"
+	"Texture.h"
+
+1682349214 d:\king darkness and pigs_22026552\gameobjects\coin.h
+	"Animation.h"
+	"Collider.h"
+
+1682348997 d:\king darkness and pigs_22026552\gameobjects\animation.h
+	"Variables.h"
+	<SDL.h>
+
+1682349843 d:\king darkness and pigs_22026552\gameobjects\player.h
+	"Animation.h"
+	"Collider.h"
+	<string>
+	<list>
+	<iostream>
+
+1682349913 d:\king darkness and pigs_22026552\gameobjects\spikes.h
+	"Animation.h"
+	"Collider.h"
+	"Player.h"
+
+1682349476 d:\king darkness and pigs_22026552\gameobjects\exitdoor.h
+	"Texture.h"
+	"Collider.h"
+
+1682349332 d:\king darkness and pigs_22026552\gameobjects\door.h
+	"Animation.h"
+	"Collider.h"
+
+1682349175 d:\king darkness and pigs_22026552\gameobjects\buttom.h
+	"Animation.h"
+	"Collider.h"
+
+1682349964 d:\king darkness and pigs_22026552\gameobjects\stone.h
+	"Texture.h"
+	"Collider.h"
+
+1682349110 d:\king darkness and pigs_22026552\gameobjects\box.h
+	"Animation.h"
+	"Collider.h"
+
+1682997686 d:\king darkness and pigs_22026552\gameobjects\enemies.h
+	"Texture.h"
+	"Animation.h"
+	"Collider.h"
+
+1682349795 d:\king darkness and pigs_22026552\gameobjects\mushroom.h
+	"Animation.h"
+	"Collider.h"
+
+1682349638 d:\king darkness and pigs_22026552\gameobjects\leverturn.h
+	"Texture.h"
+	"Collider.h"
+	<vector>
+
+1682444129 source:d:\king darkness and pigs_22026552\gamemanager\texture.cpp
+	<SDL_image.h>
+	<iostream>
+	"Texture.h"
+	"Variables.h"
+
+1682443982 source:d:\king darkness and pigs_22026552\gamemanager\variables.cpp
+	"Variables.h"
+
+1682478436 source:d:\king darkness and pigs_22026552\gameobjects\animation.cpp
+	<iostream>
+	"Animation.h"
+
+1682349127 source:d:\king darkness and pigs_22026552\gameobjects\box.cpp
+	"Box.h"
+
+1682349186 source:d:\king darkness and pigs_22026552\gameobjects\buttom.cpp
+	"Buttom.h"
+	"iostream"
+
+1682349230 source:d:\king darkness and pigs_22026552\gameobjects\coin.cpp
+	"Coin.h"
+	<iostream>
+
+1682350113 source:d:\king darkness and pigs_22026552\gameobjects\collider.cpp
+	"Collider.h"
+	"math.h"
+	<iostream>
+
+1682349366 source:d:\king darkness and pigs_22026552\gameobjects\door.cpp
+	"Door.h"
+	<iostream>
+
+1682497401 source:d:\king darkness and pigs_22026552\gameobjects\enemies.cpp
+	"Enemies.h"
+
+1682349494 source:d:\king darkness and pigs_22026552\gameobjects\exitdoor.cpp
+	"ExitDoor.h"
+
+1682349561 source:d:\king darkness and pigs_22026552\gameobjects\ground.cpp
+	"Ground.h"
+
+1682349652 source:d:\king darkness and pigs_22026552\gameobjects\leverturn.cpp
+	"LeverTurn.h"
+
+1683085362 source:d:\king darkness and pigs_22026552\gameobjects\map.cpp
+	"Map.h"
+	<fstream>
+	<string>
+	<iostream>
+	<math.h>
+
+1682443896 source:d:\king darkness and pigs_22026552\gameobjects\mushroom.cpp
+	"Mushroom.h"
+
+1682997360 source:d:\king darkness and pigs_22026552\gameobjects\player.cpp
+	"Player.h"
+	<math.h>
+
+1682349926 source:d:\king darkness and pigs_22026552\gameobjects\spikes.cpp
+	"Spikes.h"
+	<iostream>
+
+1682349976 source:d:\king darkness and pigs_22026552\gameobjects\stone.cpp
+	"Stone.h"
+
+1683099307 source:d:\king darkness and pigs_22026552\gamestatemanager\instruct.cpp
+	"Variables.h"
+	"Instruct.h"
+
+1682411192 d:\king darkness and pigs_22026552\gamestatemanager\instruct.h
+	"Texture.h"
+
+1682411143 source:d:\king darkness and pigs_22026552\gamestatemanager\mainscreen.cpp
+	"Variables.h"
+	"MainScreen.h"
+
+1682350122 d:\king darkness and pigs_22026552\gamestatemanager\mainscreen.h
+	"Texture.h"
+
+1683085130 source:d:\king darkness and pigs_22026552\main.cpp
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"SDL.h"
+	"SDL_ttf.h"
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+	"Variables.h"
+	"Texture.h"
+	"Map.h"
+	"MainScreen.h"
+	"Instruct.h"
+	"Game.h"
+

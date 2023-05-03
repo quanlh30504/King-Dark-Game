@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Kings and Pigs_22026552" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Kings and Pigs_22026552" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+					<Add directory="GameStateManager" />
+					<Add directory="GameManager" />
+					<Add directory="GameObjects" />
+					<Add directory="data" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Kings and Pigs_22026552" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+					<Add directory="GameStateManager" />
+					<Add directory="GameManager" />
+					<Add directory="GameObjects" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GameManager/Texture.cpp" />
+		<Unit filename="GameManager/Texture.h" />
+		<Unit filename="GameManager/Variables.cpp" />
+		<Unit filename="GameManager/Variables.h" />
+		<Unit filename="GameObjects/Animation.cpp" />
+		<Unit filename="GameObjects/Animation.h" />
+		<Unit filename="GameObjects/Box.cpp" />
+		<Unit filename="GameObjects/Box.h" />
+		<Unit filename="GameObjects/Buttom.cpp" />
+		<Unit filename="GameObjects/Buttom.h" />
+		<Unit filename="GameObjects/Coin.cpp" />
+		<Unit filename="GameObjects/Coin.h" />
+		<Unit filename="GameObjects/Collider.cpp" />
+		<Unit filename="GameObjects/Collider.h" />
+		<Unit filename="GameObjects/Door.cpp" />
+		<Unit filename="GameObjects/Door.h" />
+		<Unit filename="GameObjects/Enemies.cpp" />
+		<Unit filename="GameObjects/Enemies.h" />
+		<Unit filename="GameObjects/ExitDoor.cpp" />
+		<Unit filename="GameObjects/ExitDoor.h" />
+		<Unit filename="GameObjects/Ground.cpp" />
+		<Unit filename="GameObjects/Ground.h" />
+		<Unit filename="GameObjects/LeverTurn.cpp" />
+		<Unit filename="GameObjects/LeverTurn.h" />
+		<Unit filename="GameObjects/Map.cpp" />
+		<Unit filename="GameObjects/Map.h" />
+		<Unit filename="GameObjects/Mushroom.cpp" />
+		<Unit filename="GameObjects/Mushroom.h" />
+		<Unit filename="GameObjects/Player.cpp" />
+		<Unit filename="GameObjects/Player.h" />
+		<Unit filename="GameObjects/Spikes.cpp" />
+		<Unit filename="GameObjects/Spikes.h" />
+		<Unit filename="GameObjects/Stone.cpp" />
+		<Unit filename="GameObjects/Stone.h" />
+		<Unit filename="GameStateManager/Instruct.cpp" />
+		<Unit filename="GameStateManager/Instruct.h" />
+		<Unit filename="GameStateManager/MainScreen.cpp" />
+		<Unit filename="GameStateManager/MainScreen.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
