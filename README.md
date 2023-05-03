@@ -12,16 +12,16 @@
 ![image](./data/textures/Background/Game.png)
 
 
-## Hướng dẫn cài đặt
+## Cài đặt và cách chơi
 Các bạn có thể cài đặt game theo video hướng dẫn của mình:
->Các bạn có thể tải source của mình và chạy trên trình biên dịch codeblock ( chú ý cài thư viện SDL2 cho codeblock)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G-EGDH50hGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
-link tải game
+>- Các bạn có thể tải source của mình và chạy trên trình biên dịch codeblock ( chú ý cài thư viện SDL2 cho codeblock)
+>- Dưới đây là video hướng dẫn:
 
-[![Video name](./data/textures/Background/Game.png)](https://www.youtube.com/watch?v=G-EGDH50hGE)
+[![Video name](./data/textures/Background/Youtube.png)](https://www.youtube.com/watch?v=TEEGek_0P74&t=200s)
+>Mình đã để sẵn mục SDL trong source nên các bản khi cài SDL cho codeblock có thể dẫn tới luôn thư mục chứa các thư viện SDL2 đó
 
 
-## Update
+## Update sắp tới
 - Menu thêm phần tùy trỉnh âm thanh
 - Thêm các kĩ năng mới cho nhân vật
 - Làm thanh máu cho nhân vật
@@ -32,7 +32,7 @@ link tải game
 
 - Nếu bạn muốn đóng góp cho game, vui lòng truy cập trang GitHub của mình và tạo một pull request. Mình rất hoan nghênh mọi đóng góp từ cộng đồng.
 
-## Liên hệ
+## Liên hệ 
 
 - Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, vui lòng liên hệ với mình qua email ***quanlh3052004@gmail.com*** . Mình rất vui lòng được trò chuyện với bạn.
 
