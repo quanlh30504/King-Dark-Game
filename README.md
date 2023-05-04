@@ -41,8 +41,9 @@ Các bạn có thể cài đặt game theo video hướng dẫn của mình:
 - Page LazyFoo: [Lazyfoo](https://lazyfoo.net/tutorials/SDL/)
 - Youtuber: [Madsycode](https://www.youtube.com/@Madsycode/playlists)
 - Youtuber: [Phát Triển Phần Mềm 123A-Z](https://www.youtube.com/@PhatTrienPhanMem123AZ)
-- Geeksforgeeks.org
-- Stackoverflow.com
+- [Geeksforgeeks.org](https://www.geeksforgeeks.org/)
+- [Stackoverflow.com](https://stackoverflow.com/)
+- [itch.io](https://itch.io/)
 
 ## Lời kết
 - Tuy chưa có nhiều kinh nghiệm trong việc thiết kế game, song mình vẫn đầu tư tâm huyết và trí lực của mình vào việc hoàn thiện thiết kế để mọi người có được trải nghiệm tuyệt vời nhất, cảm ơn mọi người đã dành thời gian quý bấu dụng sản phẩm! 
