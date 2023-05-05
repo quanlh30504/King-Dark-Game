@@ -23,8 +23,8 @@ Các bạn có thể cài đặt game theo video hướng dẫn của mình:
 >Mình đã để sẵn mục SDL trong source nên các bản khi cài SDL cho codeblock có thể dẫn tới luôn thư mục chứa các thư viện SDL2 đó
 
 >**Cách 2**:
--Bước 1: Tải game và giải nén ([Link game](https://drive.google.com/file/d/1f7w7b9X7QBBkWBmQXBOpC2ALQ450ZOOr/view?usp=share_link))
--Bước 2: Mở file .exe và trải nghiệm game
+>- *Bước 1*: Tải game và giải nén ([Link game](https://drive.google.com/file/d/1f7w7b9X7QBBkWBmQXBOpC2ALQ450ZOOr/view?usp=share_link))
+>- *Bước 2*: Mở file .exe và trải nghiệm game
 
 ![ảnh minh họa](./data/textures/Background/setupgame.png) 
 
