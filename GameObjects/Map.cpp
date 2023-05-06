@@ -81,6 +81,7 @@ void Map::loadMap(std::string path){
 		std::cout << "Khong the mo file Map!" << std::endl;
 		return ;
 	}
+    // đọc các chỉ số map từ file map
     std::string base = "data/textures/ground/";
 	for (int i = 0; i < width; i++){
 		for (int j = 0; j < height; j++){
@@ -99,7 +100,7 @@ void Map::loadMap(std::string path){
     map >> totalCoins;
     for (int i = 0; i < totalCoins; i++){
         int x, y;
-        // lòa vị trí của từng coid từ file map
+        // load vị trí của từng coid từ file map
         map >> x >> y;
         coins.push_back(new Coin({x - 13.5, y - 13.5}));
     }
@@ -124,7 +125,7 @@ void Map::loadMap(std::string path){
     map >> x >> y;
     door = new Door({x, y});
 
-    //khởi tạo nút bấm
+    //khởi tạo nút bấm mở cửa
     map >> tolCur;
     for (int i = 0; i < tolCur; i++){
         map >> x >> y;

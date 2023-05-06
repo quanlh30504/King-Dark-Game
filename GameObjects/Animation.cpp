@@ -1,7 +1,6 @@
 #include <iostream>
 #include "Animation.h"
 
-
 Animation::Animation(const std::string& name, std::pair<int, int> frameCount, const Uint32& switchTime){
     loadedSurface = IMG_Load(name.c_str());
 	if (loadedSurface == NULL)

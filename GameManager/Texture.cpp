@@ -44,7 +44,6 @@ void Texture::move(std::pair<int, int> addpos){
 
 bool Texture::loadFromRenderedText(std::string textureText, SDL_Color textColor){
 	// SDL_Surface* TTF_RenderText_Solid(TTF_Font* font, const char* text, SDL_Color color);
-	//Trong đó:
 	// font: con trỏ tới font được sử dụng để vẽ văn bản.
 	// text: nội dung văn bản cần được vẽ lên bề mặt hình ảnh.
 	// color: màu sắc của văn bản.

@@ -19,7 +19,7 @@ void Stone::Render(){
 }
 
 void Stone::Update(const Uint32& deltaTime){
-    if (canDrop) veclocity.second += 0.01f * (float) deltaTime;
+    if (canDrop) veclocity.second += 0.01f * (float) deltaTime; //tạo trọng lực rơi đá
     else veclocity.second = 0;
     body.move(veclocity);
     canDrop = true;
