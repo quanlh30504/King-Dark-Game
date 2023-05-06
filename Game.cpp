@@ -2,14 +2,14 @@
 #include"SDL_ttf.h"
 #include <iostream>
 
-// std::string conver(int num){
-//      num = num * 100;
-//      int cc = num / 83;
-//      std::string res = std::to_string(cc);
-//      cc = num % 83; cc *= 10; cc = cc/ 83;
-//      res += "." + std::to_string(cc) + "%";
-//      return res;
-// }
+std::string conver(int num){
+     num = num * 100;
+     int cc = num / 83;
+     std::string res = std::to_string(cc);
+     cc = num % 83; cc *= 10; cc = cc/ 83;
+     res += "." + std::to_string(cc) + "%";
+     return res;
+}
 
 Game::Game(){
     mainMap = nullptr;
