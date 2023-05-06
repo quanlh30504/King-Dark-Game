@@ -13,7 +13,7 @@
 ![image](./data/textures/Background/Game.png)
 
 
-## Cài đặt và cách chơi
+## Cài đặt
 Các bạn có thể cài đặt game theo video hướng dẫn của mình:
 >**Cách 1**:
 >- Các bạn có thể tải source của mình và chạy trên trình biên dịch codeblock ( chú ý cài thư viện SDL2 cho codeblock)
@@ -27,6 +27,10 @@ Các bạn có thể cài đặt game theo video hướng dẫn của mình:
 >- *Bước 2*: Mở file .exe và trải nghiệm game
 
 ![ảnh minh họa](./data/textures/Background/setupgame.png) 
+
+
+## Hướng dẫn chơi
+![Cách chơi](./data/textures/Background/Tutorial.png)
 
 
 ## Update sắp tới
