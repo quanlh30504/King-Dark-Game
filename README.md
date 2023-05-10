@@ -32,7 +32,18 @@ Các bạn có thể cài đặt game theo video hướng dẫn của mình:
 ## Hướng dẫn chơi
 ![Cách chơi](./data/textures/Background/Tutorial.png)
 
-
+## Các kĩ thuật lập trình được sử dụng
+- Mảng
+- Con trỏ/ Giải phóng bộ nhớ
+- Class
+- Đồ họa
+- Bắt sự kiện bàn phím, chuột
+- Bắt va chạm per-pixel theo từng hoạt ảnh, chuyển động
+- Stringstream
+- Xử lí nhảy/ rơi theo vật lí
+- Cắm cờ
+- Chia file theo đối tượng
+- Đọc, ghi file
 ## Update sắp tới
 - Menu thêm phần tùy trỉnh âm thanh
 - Thêm các kĩ năng mới cho nhân vật
@@ -57,4 +68,4 @@ Các bạn có thể cài đặt game theo video hướng dẫn của mình:
 - [itch.io](https://itch.io/)
 
 ## Lời kết
-- Tuy chưa có nhiều kinh nghiệm trong việc thiết kế game, song mình vẫn đầu tư tâm huyết và trí lực của mình vào việc hoàn thiện thiết kế để mọi người có được trải nghiệm tuyệt vời nhất, cảm ơn mọi người đã dành thời gian quý bấu dụng sản phẩm! 
+- Tuy chưa có nhiều kinh nghiệm trong việc thiết kế game, song mình vẫn đầu tư tâm huyết và trí lực của mình vào việc hoàn thiện thiết kế để mọi người có được trải nghiệm tuyệt vời nhất, cảm ơn mọi người đã dành thời gian quý báu dụng sản phẩm! 
