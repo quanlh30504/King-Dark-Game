@@ -32,7 +32,7 @@ Các bạn có thể cài đặt game theo video hướng dẫn của mình:
 ## Hướng dẫn chơi
 ![Cách chơi](./data/textures/Background/Tutorial.png)
 
->Một số tính năng game 
+>**Một số tính năng game** 
 >- Esc: để dừng trò chơi
 >- Enter: để return về menu game
 >- Game có sử dụng 1 thuật toán để chuyển đổi số xu nhận được sang % thứ hạng:
