@@ -32,6 +32,22 @@ Các bạn có thể cài đặt game theo video hướng dẫn của mình:
 ## Hướng dẫn chơi
 ![Cách chơi](./data/textures/Background/Tutorial.png)
 
+>Một số tính năng game 
+>- Esc: để dừng trò chơi
+>- Enter: để return về menu game
+>- Game có sử dụng 1 thuật toán để chuyển đổi số xu nhận được sang % thứ hạng:
+```cpp
+string conver(int num){
+     num = num * 100;
+     int cc = num / 83;
+     std::string res = std::to_string(cc);
+     cc = num % 83; cc *= 10; cc = cc/ 83;
+     res += "." + std::to_string(cc) + "%";
+     return res;
+}
+```
+![anh](data/textures/Background/wingame.png)
+
 ## Các kĩ thuật lập trình được sử dụng
 - Mảng
 - Con trỏ/ Giải phóng bộ nhớ
