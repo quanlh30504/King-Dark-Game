@@ -11,18 +11,22 @@ enum collider {
 
 class Collider {
 public:
-    Collider(Texture& body);
-	Collider(Texture* body);
-    ~Collider(){}
-    int checkCollision(Collider* other, float push);
-    int checkCollision(Collider* other);
-    std::pair<float, float> getCenterPosition();
-    std::pair<int, int> getPosition();
-    std::pair<int, int> getSize();
-    void Move(const int& x , const int& y);
-    Texture* body;
+    SDL_Rect rect; // Hình chữ nhật đại diện cho collider
+
+    Collider(int x, int y, int width, int height) {
+        rect.x = x;
+        rect.y = y;
+        rect.w = width;
+        rect.h = height;
+    }
+
+    bool CheckCollision(const Collider& otherCollider) {
+        // Kiểm tra va chạm giữa hai collider
+        if (SDL_HasIntersection(&rect, &otherCollider.rect) == SDL_TRUE) {
+            return true; // Va chạm xảy ra
+        }
+        return false; // Không có va chạm
+    }
 };
-
-
 
 #endif // COLLIDER_H

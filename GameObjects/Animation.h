@@ -4,31 +4,41 @@
 #include "Variables.h"
 #include <SDL.h>
 
-class Animation{
+class Animation {
 public:
-    Animation(const std::string& name, std::pair<int, int> frameCount, const Uint32& switchTime);
-    ~Animation();
-    bool update(const Uint32& deltaTime, std::pair<int, int> frameLimit, const bool& faceRight);
-	bool update(const Uint32& deltaTime, const bool& faceRight);
-    bool update(const Uint32& deltaTime, std::pair<int, int> frameLimit);
-	bool update(const Uint32& deltaTime);
-    void update(const bool& faceRight);
-    void update();
-    Uint32 getSwitchTime();
-    void setSwitchTime(const Uint32& getSwitchTime);
+    std::vector<SDL_Rect> frames; // Danh sách các frame của animation
+    int currentFrameIndex; // Chỉ số frame hiện tại
+    int frameDelay; // Độ trễ giữa các frame
+    int frameTimer; // Thời gian đã trôi qua kể từ frame cuối cùng
 
-    std::pair<int, int> getFrameCount();
-    SDL_Rect* getmBox();
-    bool getFlip();
+    Animation() {
+        currentFrameIndex = 0;
+        frameDelay = 100; // Đặt độ trễ mặc định là 100ms
+        frameTimer = 0;
+    }
 
-    std::pair<int, int> currentFrame;
-    Uint32 currentTime;
-private:
-    std::pair <int, int> frameCount;
-    Uint32 switchTime;
-    SDL_Surface* loadedSurface;
-    SDL_Rect mBox;
-    bool flip = 0;
+    void AddFrame(int x, int y, int width, int height) {
+        SDL_Rect frameRect = {x, y, width, height};
+        frames.push_back(frameRect);
+    }
+
+    void Update(int deltaTime) {
+        frameTimer += deltaTime;
+
+        // Kiểm tra xem đã đến lúc chuyển frame mới hay chưa
+        if (frameTimer >= frameDelay) {
+            frameTimer = 0;
+            currentFrameIndex++;
+            if (currentFrameIndex >= frames.size()) {
+                currentFrameIndex = 0;
+            }
+        }
+    }
+
+    void Draw(SDL_Renderer* renderer, int x, int y) {
+        SDL_Rect currentFrame = frames[currentFrameIndex];
+        SDL_Rect destRect = {x, y, currentFrame.w, currentFrame.h};
+        SDL_RenderCopy(renderer, texture, &currentFrame, &destRect);
+    }
 };
-
 #endif // ANIMATION_H
