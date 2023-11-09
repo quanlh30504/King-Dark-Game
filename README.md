@@ -15,8 +15,7 @@
 ## Hướng dẫn cài đặt
 Các bạn có thể cài đặt game theo video hướng dẫn của mình:
 >Các bạn có thể tải source của mình và chạy trên trình biên dịch codeblock ( chú ý cài thư viện SDL2 cho codeblock)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G-EGDH50hGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
-link tải game
+- Cách cài trên CodeBlock: [Video hướng dẫn](https://www.youtube.com/watch?v=TEEGek_0P74)
 
 [![Video name](./data/textures/Background/Game.png)](https://www.youtube.com/watch?v=G-EGDH50hGE)
 
