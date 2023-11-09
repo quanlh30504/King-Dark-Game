@@ -23,7 +23,7 @@ Coin::~Coin(){
 void Coin::Update(const Uint32& deltaTime){
     if (deleteCoin) return;
     if (eatCoin == 1){
-        animation = new Animation("data/textures/Coin/coin2.png", {6, 1}, 100); // update hiệu ứng nhận coin
+        animation = new Animation("data/textures/Coin/coin2.png", {6, 1}, 100);
         loadFromFile("data/textures/Coin/coin2.png");
         setSize({27, 54});
         move({0, -27});

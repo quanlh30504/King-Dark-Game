@@ -4,6 +4,18 @@
 Instruct::Instruct(){
 }
 Instruct::~Instruct(){
+    if (BackGround != nullptr){
+        delete BackGround;
+    }
+    if (main != nullptr){
+        delete main;
+    }
+    if (title != nullptr){
+        delete title;
+    }
+    if (_next != nullptr){
+        delete _next;
+    }
 }
 
 void Instruct::Init(){

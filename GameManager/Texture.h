@@ -6,63 +6,42 @@
 
 using namespace std;
 
-class Texture {
+class Texture{
 public:
-    SDL_Texture* texture;
-    SDL_Rect rect;
+	Texture();
 
-    Texture() {
-        texture = nullptr;
-        rect = {0, 0, 0, 0};
-    }
+	~Texture();
 
-    ~Texture() {
-        Free();
-    }
+	void setSize(pair<int, int> size);
 
-    bool LoadFromFile(SDL_Renderer* renderer, const std::string& filePath) {
-        // Tải ảnh từ file
-        SDL_Surface* surface = IMG_Load(filePath.c_str());
-        if (surface == nullptr) {
-            printf("Unable to load image %s! SDL_image Error: %s\n", filePath.c_str(), IMG_GetError());
-            return false;
-        }
+	void setPosition(pair<int, int> pos);
 
-        // Tạo texture từ surface
-        texture = SDL_CreateTextureFromSurface(renderer, surface);
-        if (texture == nullptr) {
-            printf("Unable to create texture from %s! SDL Error: %s\n", filePath.c_str(), SDL_GetError());
-            SDL_FreeSurface(surface);
-            return false;
-        }
+	void move(pair<int, int> addpos);
 
-        // Lấy kích thước từ surface
-        rect.w = surface->w;
-        rect.h = surface->h;
+	// Tạo ảnh từ font
+	bool loadFromRenderedText(string textureText, SDL_Color textColor);
 
-        // Giải phóng surface
-        SDL_FreeSurface(surface);
+	// Tải ảnh từ đường dẫn
+	bool loadFromFile(string path);
 
-        return true;
-    }
+	void free();
 
-    void Free() {
-        // Giải phóng texture
-        if (texture != nullptr) {
-            SDL_DestroyTexture(texture);
-            texture = nullptr;
-            rect = {0, 0, 0, 0};
-        }
-    }
+	// Tạo text tại vị trí bất kì
+	void render(bool flip = 0, SDL_Rect* clip = NULL, double angle = 0.0, SDL_Point* center = NULL);
 
-    void Render(SDL_Renderer* renderer, int x, int y) {
-        rect.x = x;
-        rect.y = y;
+	// Lấy vị trí ảnh
+	int getWidth();
+	int getHeight();
+	SDL_Rect getRect() const;
+	SDL_Rect* getRect();
+	pair<int, int> getPosition() const;
+	pair<int, int> getSize() const;
 
-        // Vẽ texture lên renderer
-        SDL_RenderCopy(renderer, texture, nullptr, &rect);
-    }
+protected:
+	SDL_Texture *mTexture;
+	SDL_Rect rect;
+	int mWidth;
+	int mHeight;
 };
-
 
 #endif // TEXTURE_H
